@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<!--
-  Use this layout for the home page for the workshop website.
-  Use 'page.html' for other pages.
--->
 <html>
   <head>
-    <title>Data Carpentry: TDWG Meeting</title>
-    <link rel="shortcut icon" type="image/x-icon" href="http://datacarpentry.org/v5/favicon.ico" />
+    
+      <title>UCDavis</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+<link href="./css/bootstrap/bootstrap.css" rel="stylesheet" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.css"  />
+<link href="./css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="./css/swc.css" />
-<link rel="alternate" type="application/rss+xml" title="The Data Carpentry Blog" href="/feed.xml"/>
+<link rel="stylesheet" type="text/css" href="./css/swc-bootstrap.css" />
 <meta charset="UTF-8" />
 <meta http-equiv="last-modified" content="" />
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -18,328 +17,429 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-    <meta name="venue" content="TDWG Meeting" />
-    <meta name="date" content="Sept 23-24, 2015" />
+    <meta name="venue" content="UCDavis" />
+    <meta name="date" content="September 22-23, 2015" />
     <meta name="startdate" content="2015-09-23" />
     <meta name="enddate" content="2015-09-24" />
-    
   </head>
-  <body class="workshop">
-
-    <span id="github-ribbon"><a href="http://github.com/datacarpentry/workshop-template">Find us on GitHub</a></span>
-
-
-    <div class="container card">
-      <div class="banner">
+  <body>
+    <div class="container">
+      <div class="span10 offset1">
+        <div class="banner">
   <a href="http://datacarpentry.org" title="Data Carpentry">
-    <img alt="Data Carpentry banner" src="http://datacarpentry.org/images/DC1_logo_small.png" />
+    <img alt="Data Carpentry banner" src="./img/DC1_logo_small.png" height="50px" />
   </a>
 </div>
 
-      <div class="jumbotron">
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <h2>A Data Carpentry Workshop</a>
-	    <h2>TDWG Meeting</h2>
-            <div class="row">
-              <div class="col-md-6">
-                <p>Sept 23-24, 2015</p>
-                <p>9:00 am - 4:30 pm</p>
-              </div>
-              <div class="col-md-6">
-                <p>
-                <strong>Instructors:</strong>
-                
-                Deb Paul, Matt Collins
-                
-                </p>
-                
-              </div>
-            </div>
+
+        <div class="hero-unit">
+          <div class="row-fluid">
+            <div class="span10">
+	      <h2>Data Carpentry Workshop</h2>
+              <h2>UCDavis</h2>
+              
+              September 22-23, 2015
+              <br/>9:00 am - 4:30 pm
+	    </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <!--
-  HEADER
 
-  Edit the values in the block above to be appropriate for your
-  workshop.  Run 'tools/check' *before* committing to make sure that
-  changes are good.
+        <!--
+    Edit the values in the parameter block above to be appropriate for your bootcamp.
+    Please use three-letter month names for the 'humandate' field.
 -->
 
 <!--
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
+    This block includes the Eventbrite registration widget if 'eventbrite' has been set in the header.
 -->
 
 
 <h2>General Information</h2>
-
+<p>
 <!--
-  INTRODUCTION
-
-  Edit the general explanatory paragraph below if you want to change
-  the pitch.
+    More information about this workshop is available at: <a href=https://github.com/datacarpentry/2015-05-29-great-plains/wiki>https://github.com/datacarpentry/2015-05-29-great-plains/wiki</a>
+</p>
 -->
 <p>
-<a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher 
-who has data they want to analyze, and no prior computational experience is required. 
-This hands-on workshop teaches basic concepts, skills and tools for working more 
-effectively with data. 
+Data Carpentry workshops are for any researcher who has data they want to analyze, and no prior computational experience is required. 
+<p>
+
+<p><b>The focus of this workshop will be on working with genomics data
+and data management and analysis for genomics research.</b> 
+We will cover project setup, connecting to 
+and using cloud computing, the command line for 
+sequence quality control and bioinformatics workflows,
+and R for data analysis and visualization. 
+We will not be teaching any particular bioinformatics tools, but the 
+foundational skills that will allow you to conduct any analysis and
+analyze the output of a genomics pipeline. 
+<p>
+Participants should bring their laptops and plan to participate actively. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research. 
+<p>
+Data Carpentry's aim is to teach researchers basic concepts, skills,
+and tools for working with data so that they can get more done in less
+time, and with less pain.
 </p>
 <p>
-We will cover Data organization in spreadsheets and OpenRefine, Introduction to R, Data analysis and visualization in R and SQL for data management.
-
-Participants should bring their laptops and plan to participate actively. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.
-</p>
-
-<!--
-  AUDIENCE
-
-  Explain who your audience is.  (In particular, tell readers if the
-  workshop is only open to people from a particular institution.
--->
-<p>
-  <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
-</p>
-
-<!--
-  LOCATION
-
-  This block displays the address and links to maps showing directions
-  if the latitude and longitude of the workshop have been set.  You
-  can use http://itouchmap.com/latlong.html to find the lat/long of an
-  address.
--->
+Preliminary schedule:
+<ul>
+<li>  Day 1 morning: Genomics data and project organization
+<li>  Day 1 afternoon: Using cloud computing for bioinformatics
+<li>  Day 2 morning: The command line for bioinformatics
+<li>  Day 2 afternoon: Data analysis and visualization in R
+</ul>
 
 
-<!--
-  SPECIAL REQUIREMENTS
-
-  Modify the block below if there are any special requirements.
--->
-<p>
-  <strong>Requirements:</strong> Participants must bring a laptop with
-  a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  Data Carpentry's
-  <a href="/conduct.html">Code of Conduct</a>.
 </p>
 
 <!--
-  CONTACT EMAIL ADDRESS
-
-  Display the contact email address set in the header.  If an address
-  isn't set in the header, the Software Carpentry admin address is
-  used.
--->
-<p>
-  <strong>Contact</strong>:
-  Please mail
-  
-    <a href='mailto:dpaul@fsu.edu'>dpaul@fsu.edu</a>
-  
-  for more information.
-</p>
-
-<hr/>
-
-<!--
-  SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
--->
-<h2>Preliminary Schedule</h2>
-
 <div class="row">
   <div class="col-md-6">
 
-    <h3>Day 1</h3>
+    <h3>Day 1: 9AM - 11:30AM</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>Data organization in spreadsheets and OpenRefine</td> </tr>
-       <tr> <td>Afternoon</td>  <td>Introduction to R</td> </tr>
+      <tr> 
+        <td colspan=2 style="background:gainsboro">Data Organization</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="lessons/00-intro-to-data-tidy.html">Why is data organization important?
+        </td>
+        <td>
+            Fan
+        </td>
+      </tr>
+      </tr>
+      <tr>
+        <td>
+          <a href="lessons/01-intro-to-ecoli-evo-experient.html">
+            Introduction to biological data
+          </a>
+        </td>
+        <td>
+            Fan
+        </td>
+      </tr>
+         <td>
+          <a href="lessons/02-examining-sra-runtable.html">
+            Getting your data
+          </a>
+        </td>
+        <td>
+            Fan
+        </td>
+      </tr>
+         <td>
+          <a href="lessons/07-know_your_data.html">
+            So you think you have the right data?
+          </a>
+        </td>
+        <td>
+           Fan 
+        </td>
+      </tr>
+    </table>    
+ 
+    <h3>Day 1: 12:30PM - 4PM</h3>
+    <table class="table table-striped">
+      <tr> 
+        <td colspan=2 style="background:gainsboro">Data Processing</td>
+      </tr>
+        <td>
+          <a href="lessons/03_unix_organization.html">
+             Where are my data? 
+          </a>
+        </td>
+        <td>
+            Julian
+        </td>
+      </tr>
+     
+      <tr>
+        <td>
+          <a href="lessons/04_the_filesystem.html">
+             How to get to my data? 
+            </a>
+        </td>
+        <td>
+            Julian and Fan
+        </td>
+      </tr>
+    </table>
+
+    <h3>Day 2: 9AM - 12:30PM</h3>
+    <table class="table table-striped">
+      <tr> 
+        <td colspan=2 style="background:gainsboro">Data Manipulations</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <a href="lessons/05_searching_files.html">How to manipulate my data?
+        </td>
+        <td>
+            Adina
+        </td>
+      </tr>
+      </tr>
+      <tr>
+        <td>
+          <a href="lessons/06-readQC.html">
+            Good data, bad data?
+          </a>
+        </td>
+        <td>
+            Adina
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <a href="lessons/08-automating_a_workflow.html">
+             What do you mean I don't need to do it all by hand? 
+            </a>
+        </td>
+        <td>
+            Adina
+        </td
+      </tr>
     </table>
  
  
-    <h3>Day 2</h3>
+    <h3>Day 2: 12:30PM - 4PM</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>Data analysis and visualization in R</td> </tr>
-      <tr> <td>Afternoon</td>  <td>SQL for data management</td> </tr>
+      <tr> 
+        <td colspan=2 style="background:gainsboro">Genomic Analysis with R</td>
+      </tr>
+      <tr> 
+      <tr>
+        <td>
+          <a href="https://tracykteal.github.io/R-genomics/">
+            I want that pretty graph generated by R!
+          </a>
+        </td>
+        <td>
+          Fan
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="http://ucbpsych.qualtrics.com/SE/?SID=SV_9oaGksH1Q7KrMRn">
+            Please complete the post-workshop Survey</a>
+        </td>
+        <td>
+         On your own
+        </td>
+      </tr>
+    </table>
+    <h3>Post-Workshop (or using these lessons on your own)</h3>
+    <table class="table table-striped">
+      <tr> 
+        <td colspan=2 style="background:gainsboro">Launching cloud instances after the workshop</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://github.com/JasonJWilliamsNY/cloud-genomics/blob/master/lessons/1.logging-onto-cloud.md">
+            Launching your own instance</a><br>
+          Note: Start here if you are working on the lessons on your own
+        </td>
+        <td>
+          On your own
+        </td>
+      </tr>
     </table>
  </div>
 </div>
-
-<!--
-  ETHERPAD
-
-  Display the Etherpad for the workshop.  You can set this up in
-  advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
-
-      http://etherpad.mozilla.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop (e.g.,
-  '2015-06-10-esu'.
 -->
 
+<p>Updates will be posted to this website as they become available.</p>
+
+<!--
+<p>Data files for the workshop are available at <a href = "/2015-01-15-cornell/data/biology/">the following link</a></p>
+
+<p>The etherpad for this workshop can be found <a href = "https://etherpad.mozilla.org/7XixtJSZJq">here</a></p>
+
+<p>A static copy of the etherpad as of 5:30 on Friday after the workshop ended is <a href ="etherpad-snapshot-530-Friday.html">here</a></p>
+-->
+
+<!-- This block displays the instructors' names if they are available. -->
+
+
 <p>
-  <strong>Etherpad:</strong> <a href="https://datacarpentry.etherpad.mozilla.org/78">https://datacarpentry.etherpad.mozilla.org/78</a>.
-  <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  <strong>Organizer:</strong>
+  Titus Brown, Jason Williams
+</p>
+<p>
+  <strong>Instructors:</strong>
+  Jason Williams, Tracy Teal
+</p>
+<p>
+  <strong>Assistants:</strong>
+  
+
+
+
+<!--
+    Modify this block to reflect the target audience for your bootcamp.
+    In particular, if it is only open to people from a particular institution,
+    or if specialized prerequisite knowledge is required, please mention that.
+-->
+<p>
+  <strong>Who:</strong>
+  The course is aimed at faculty, research staff, postdocs, graduate students, advanced undergraduates, and other researchers in any field. No prior computational experience is required. 
+</p>
+
+<!--
+    This block displays the address and links to a map showing directions.
+-->
+
+
+<!--
+    Modify the block below if there are any special requirements.
+-->
+<p>
+
+<p>
+  <strong>Requirements:</strong>
+Data Carpentry's teaching is hands-on, so participants are encouraged to bring in and use their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.  (We will provide instructions on setting up the required software several days in advance, and the classroom will have computers with the software installed). <em> There are no pre-requisites, and we will assume no prior knowledge about the tools.</em> Participants are required to abide by Software Carpentry's
+<a href="http://software-carpentry.org/conduct.html">Code of Conduct</a>.
+</p>
+
+<!--
+    This block automatically inserts a contact email address if one has been specified for the page.
+    If one hasn't, this block inserts the generic contact address for Software Carpentry.
+-->
+<p>
+  <strong>Contact</strong>:
+  Please email
+  
+    <a href='mailto:'></a>
+  
+  for questions and information not covered here.
+</p>
+
+<p><strong>Twitter</strong>: @datacarpentry
+
+
+<h2>Acknowledgements &amp; Support</h2>
+<!--
+<div class="pull-right" style="max-width: 320px; padding-left: 6px;">
+</div>
+-->
+<p>
+Data Carpentry is supported by the <a href=http://http://www.moore.org/>Gordon and Betty Moore Foundation</a> and a partnership of several NSF-funded <a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">BIO</a> Centers (<a href="http://nescent.org" target="_blank">NESCent</a>, <a href="http://iplantcollaborative.org" target="_blank">iPlant</a>, <a href="http://idigbio.org" target="_blank">iDigBio</a>, <a href="http://beacon-center.org/" target="_blank">BEACON</a> and <a href="http://sesync.org" target="_blank">SESYNC</a>) and <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>. 
+The structure and objectives of the curriculum as well as the teaching style are informed by <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>.
 </p>
 
 
+
+
+<!--
+    Edit this block to show the syllabus and schedule for your bootcamp.
+-->
+<!--
+<h2>Schedule</h2>
+(anticipate)
+<table class="table table-striped">
+  <tr> <td>Thursday</td>  <td>09:00</td>  <td><a href = "lessons/excel/ecology-examples/00-intro.html">Better Use of Spreadsheets</a></td> </tr>
+  <tr> <td></td>        <td></td>       <td>Refreshments will be served around 10:30.</td> </tr>
+  <tr> <td></td>        <td>12:00</td>  <td>Lunch break (on your own)</td> </tr>
+  <tr> <td></td>        <td>13:00</td>  <td>Cleaning and managing data with <a href="lessons/OpenRefine/open-refine-demo.html">OpenRefine</a>, <a href="lessons/sql/sql.html">Introduction to relational databases with SQLite</a> </td> </tr>
+  <tr> <td></td>        <td></td>       <td>Refreshments will be served around 14:30.</td> </tr>
+  <tr> <td></td>        <td>16:00</td>  <td>Wrap-up</td> </tr>
+  <tr> <td>Friday</td> <td>09:00</td>  <td> <a href="lessons/R/index.html"> Working with data in R </a></td> </tr>
+  <tr> <td></td>        <td></td>       <td>Refreshments will be served around 10:30.</td> </tr>
+  <tr> <td></td>        <td>12:00</td>  <td>Lunch break (on your own)</td> </tr>
+  <tr> <td></td>        <td>13:00</td>  <td> <a href = "lessons/shell/index.html">Workflows and automating repetitive tasks with command line shell </a>  </td> </tr>
+  <tr> <td></td>        <td></td>       <td>Refreshments will be served around 14:30.</td> </tr>
+  <tr> <td></td>        <td>16:00</td>  <td>Wrap-up</td> </tr>
+</table>
+-->
 <hr/>
 
 <!--
-  SYLLABUS
-
-  Show what topics will be covered.
-
-  1. If your workshop is R rather than Python, remove the comment
-     around that section and put a comment around the Python section.
-  2. Some workshops will delete SQL.
-  3. Please make sure the list of topics is synchronized with what you
-     intend to teach.
-  4. You may need to move the div's with class="col-md-6" around inside
-     the div's with class="row" to balance the multi-column layout.
-
-  This is one of the places where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
--->
-<!--
-<h2>Syllabus</h2>
-
-<div class="row">
-  <div class="col-md-6">
-    <h3>The Unix Shell</h3>
-    <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="/ref/01-shell.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3>Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="/ref/03-python.html">Reference...</a></li>
-    </ul>
-  </div>
-
-  <div class="col-md-6">
-    <h3>Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Using R from the command line</li>
-      <li><a href="/ref/06-R.html">Reference...</a></li>
-    </ul>
-  </div>
-
-</div>
-
-<div class="row">
-  <div class="col-md-6">
-    <h3>Version Control with Git</h3>
-    <ul>
-      <li>Creating a repository</li>
-      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
-      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
-      <li>Ignoring files</li>
-      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
-      <li>Resolving conflicts</li>
-      <li>Open licenses</li>
-      <li>Where to host work, and why</li>
-      <li><a href="/ref/02-git.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3>Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="/ref/04-sql.html">Reference...</a></li>
-    </ul>
-  </div>
-</div>
+    Edit the setup instructions in _includes/setup.html to reflect your bootcamp.
+    (In particular, most bootcamps teach either Python or R, not both.)
 
 
-<hr/>
--->
 
-<!--
-  SETUP
 
-  Delete irrelevant sections from the setup instructions.  Each
-  section is inside a 'div' without any classes to make the beginning
-  and end easier to find.
+<h2>Additional Resources</h2>
 
-  This is the other place where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
--->
+<h3>shell</h3>
+<ul>
+<li><a href=http://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/>Unix/Linux Command Reference</a>
+<li><a href=https://github.com/swcarpentry/boot-camps/blob/master/shell/shell_cheatsheet.md
+>Shell cheat sheet</a>
+<li><a href=http://software-carpentry.org/v4/shell/index.html>Software Carpentry shell lessons</a>
+</ul>
 
-<h2 id="setup">Setup</h2>
+<h3>R</h3>
+
+<b>Where to learn more about R</b>
+<ul>
+<li><a href=http://www.statmethods.net/>http://www.statmethods.net/</a> - good for data organization, basics stats and graphs
+<li><a href=http://www.gardenersown.co.uk/Education/Lectures/R/anova.htm>http://www.gardenersown.co.uk/Education/Lectures/R/anova.htm</a> - basic parametric and non-parametric stats
+<li><a href=http://www.cyclismo.org/tutorial/R/index.html>http://www.cyclismo.org/tutorial/R/index.html</a> - R tutorial
+<li><a href=http://www.amazon.com/R-Action-Robert-Kabacoff/dp/1935182390>R in Action</a> - good book as an R reference
+<li><a href=http://www.twotorials.com/>http://www.twotorials.com/</a>
+<li><a href=http://www.r-bloggers.com/>http://www.r-bloggers.com/</a>
+<li><a href=http://tryr.codeschool.com/>http://tryr.codeschool.com/</a>
+<li><a href=http://adv-r.had.co.nz/>Advanced R Programming by Hadley Wickham</a>
+<li><a href=http://www.computerworld.com/s/article/9239625/Beginner_s_guide_to_R_Introduction>Beginner's Guide to R from Computer World</a>
+<li><a href=http://www.scoop.it/t/r-for-journalists>R for Journalists</a>
+<li><a href=http://www.r-bloggers.com/>R Bloggers</a>
+<li><a href=http://www.inside-r.org/>inside-R</a> 
+<li><a href=http://ropensci.org/>rOpenSci</a>
+</ul>
 
 <p>
-To participate in a Data Carpentry workshop, you will need working copies of the 
-described software. Please make sure to install everything (or at least to download 
-the installers) before the start of your workshop. Participants should bring and use 
-their own laptops to insure the proper setup of tools for an efficient workflow 
-once you leave the workshop.
-<p>
-Please follow these <a href=install.html>Setup Instructions</a>
+<b>Plotting in R</b>
+<ul>
+<li><a href=http://www.harding.edu/fmccown/r/>http://www.harding.edu/fmccown/r/</a> - Very simple graphs
+<li><a href=https://storify.com/tracykteal/r-galleries>A variety of R gallery recommendations</a>
+<li><a href=http://docs.ggplot2.org/>ggplot gallery</a> - extensive and comprehensive; a great resource
+<li><a href=http://www.amazon.com/R-Graphics-Cookbook-Winston-Chang-ebook/dp/B00AJ5X7W4/>R Graphics Cookbook</a> - highly recommended
+<li><a href=http://www.cookbook-r.com/Graphs/>Some of R Graphics Cookbook plots</a> - a set of some of the plots from the R Graphics Cookbook by Winston Chang
+<li><a href=http://rgm3.lab.nig.ac.jp/RGM/R_image_list?page=665&init=true>R Graphical Manual</a> - plots from apparently every R CRAN package
+</ul>
+-->
+
+<h2>Setup</h2>
 
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  To participate in a Data Carpentry workshop, 
+  you will need working copies of the shell, R, RStudio, SQL and OpenRefine.
+  Please make sure to install everything
+  (or at least to download the installers)
+  <em>before</em> the start of your bootcamp. 
+  
+Participants should bring and use their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.
+<p>
+Please follow these <a href=install.html><b>Setup Instructions</b></a>  
+  
 </p>
 
 
-        </div>
+
+
+
+        <div class="footer">
+  <a class="label swc-blue-bg" href="">Facebook</a>
+  <a class="label swc-blue-bg" href="">Google+</a>
+  <a class="label swc-blue-bg" href="">Twitter</a>
+  <a class="label swc-blue-bg" href="">GitHub</a>
+  <a class="label swc-blue-bg" href="./LICENSE.html">License</a>
+  <a class="bugreport label swc-blue-bg" href="mailto:?subject=bug%20in%20index.html">Bug Report</a>
+</div>
+
       </div>
-      <div class="footer">
-  <a class="label swc-blue-bg" href="LICENSE.html">License</a>
-  <a class="label swc-blue-bg" href="http://datacarpentry.github.io/blog">Blog</a>
-  <a class="label swc-blue-bg" href="http://github.com/datacarpentry">GitHub</a>
-  <a class="label swc-blue-bg" href="http://twitter.com/datacarpentry">Twitter</a>
-  <a class="label swc-blue-bg" href="http://github.com/datacarpentry/workshop-template/issues/">Issues</a>
-</div>
-
     </div>
-    <!-- Javascript placed at the end of the document so the pages load faster. -->
+    <!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
 <script src="./js/jquery-1.9.1.min.js"></script>
-<script src="./css/bootstrap/bootstrap-js/bootstrap.js"></script>
+<script src="./js/bootstrap/bootstrap.min.js"></script>
 
   </body>
 </html>
